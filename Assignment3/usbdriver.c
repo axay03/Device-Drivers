@@ -13,23 +13,23 @@
 #define DEVICE_NAME 									"pd"
 #define SECTOR_SIZE 									512
 
-# define SANDISK_32GB_VID 						0x0781
-# define SANDISK_32GB_PID 						0x558a
+# define SANDISK_32GB_VID 								0x0781
+# define SANDISK_32GB_PID 								0x558a
 
 # define HP_8GB_VID 									0x03f0
 # define HP_8GB_PID 									0x5607
 
-# define DIRECTION_IN 								0x80
-# define DIRECTION_OUT 								0x00
+# define DIRECTION_IN 									0x80
+# define DIRECTION_OUT 									0x00
 
 # define BOMS_RESET 									0xFF
-# define BOMS_RESET_TYPE 							0x21
+# define BOMS_RESET_TYPE 								0x21
 
-# define BOMS_GET_MAX_LUN 						0xFE
-# define BOMS_GET_MAX_LUN_TYPE		 		0xA1
+# define BOMS_GET_MAX_LUN 								0xFE
+# define BOMS_GET_MAX_LUN_TYPE		 						0xA1
 
-#define REQUEST_SENSE_LENGTH          0x12
-#define INQUIRY_LENGTH                0x24
+#define REQUEST_SENSE_LENGTH          							0x12
+#define INQUIRY_LENGTH                							0x24
 
 # define be_to_int32(buf)(((buf)[0] << 24) | ((buf)[1] << 16) | ((buf)[2] << 8) | (buf)[3])
 # define __bio_kunmap_atomic(addr, kmtype) kunmap_atomic(addr)
