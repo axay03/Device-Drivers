@@ -1,5 +1,5 @@
 STEP 1:	Remove Builtin drivers
-			  Remove the inbuilt drivers for USB devices, by blacklisting them or by removing them manually:
+	Remove the inbuilt drivers for USB devices, by blacklisting them or by removing them manually:
           Blacklisting process:
             Place the following text in etc/modprobe.d/blacklist.conf:
             # Blacklisting inbuilt USB drivers
