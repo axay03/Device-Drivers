@@ -1,14 +1,14 @@
 STEP 1:	Remove Builtin drivers
 	Remove the inbuilt drivers for USB devices, by blacklisting them or by removing them manually:
-          Blacklisting process:
-            Place the following text in etc/modprobe.d/blacklist.conf:
-            # Blacklisting inbuilt USB drivers
-            blacklist uas
-            blacklist usb_storage
+		  Blacklisting process:
+		    Place the following text in etc/modprobe.d/blacklist.conf:
+		    # Blacklisting inbuilt USB drivers
+		    blacklist uas
+		    blacklist usb_storage
 
-				Manually removing them:
-					$ sudo rmmod uas
-					$ sudo rmmod usb_storage
+		Manually removing them:
+			$ sudo rmmod uas
+			$ sudo rmmod usb_storage
 
 STEP 2: Build the driver, using the makefile uploaded with it.
           Use the following commands:
