@@ -36,5 +36,4 @@ READING KERNEL LOGS:
 NOTE: Please insert your flash drive only after the driver is inserted
 
 Submitted by:
-	Akshay A Soni 				    (2019H1400117P)
-	Virendra Singh Chauhan		(2019H1400580P)
+	Akshay A Soni 			(2019H1400117P)
